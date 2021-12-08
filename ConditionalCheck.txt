@@ -10,34 +10,18 @@ import java.util.Scanner;
         int n=sc.nextInt();
         if (n%2==0)
         {
-          System.out.println("Weird");
-        }
-        
-      else if(n>=2 && n<=5)
-      {
-          System.out.println("Not Weird");
-      }
+          if(n>=2 && n<=5)
+      System.out.println("Not Weird");
       else if(n>=6 && n<=20)
-     {
-         System.out.println("Weird");
-
-     }
-     else if(n>20)
-     {
-         System.out.println("Not weird");
+      System.out.println("Weird");
+     else
+      System.out.println("Not weird");
      }
     
     else 
-    {
-        System.out.println("This is not applicable");
-    }
     
-    }
-
-}
-
-OUTPUT:
-
-enter a number:
-4
-Weird
+        System.out.println("Weird");
+        scanner.close();
+    
+   }
+   }
